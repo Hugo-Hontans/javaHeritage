@@ -5,6 +5,6 @@ public class Boat extends Vehicule {
     }
 
     public String doStuff(){
-        return ("Je suis " + super.brand + " et je fais glou glou !");
+        return ("Je suis " + getBrand() + " et je fais glou glou !");
     }
 }
